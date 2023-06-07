@@ -5,9 +5,13 @@ This is a web application that displays random quotes. It uses React.js to manag
 - Generates and displays random quotes.
 - Allows users to fetch new quotes with a button click.
 - Provides social media sharing options for Twitter and Facebook.
+- Uses React.js and Bootstrap for front-end development.
+- Utilizes font awesome for icons.
+- User-friendly interface.
+- Responsive design for mobile and desktop devices.
 
 ## Installation
-1. Clone the repository: `git clone <repository_url>`
+1. Clone the repository: `git clone https://github.com/Kalutu/Random-Quote-Machine`
 2. Navigate to the project directory: `cd random-quote-machine`
 3. Install dependencies: `npm install`
 
@@ -20,15 +24,19 @@ The main component of the application is the `App` component defined in the `src
 
 The component structure is as follows:
 - `App`: The main component that handles the state and rendering of the application.
-  - `quotes`: State variable that stores the fetched quotes from the API.
-  - `randomQuote`: State variable that stores the currently displayed random quote.
-  - `color`: State variable that stores the background color of the application.
-  - `useEffect`: Hook used to fetch quotes from the API and initialize the state.
-  - `getNewQuote`: Function that generates a new random quote and updates the state.
-  - UI elements: HTML elements and React components that render the quote, author, and buttons.
+- `quotes`: State variable that stores the fetched quotes from the API.
+- `randomQuote`: State variable that stores the currently displayed random quote.
+- `color`: State variable that stores the background color of the application.
+- `useEffect`: Hook used to fetch quotes from the API and initialize the state.
+- `getNewQuote`: Function that generates a new random quote and updates the state.
+- `UI elements`: HTML elements and React components that render the quote, author, and buttons.
 
 ## Dependencies
 - React: JavaScript library for building user interfaces.
+- ReactDOM: React package for working with the DOM.
+- Babel: JavaScript compiler for using modern JavaScript features.
+- Bootstrap: CSS framework for responsive design.
+- Font Awesome: Library of icons for web projects
 
 ## Contributing
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
