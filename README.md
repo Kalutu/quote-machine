@@ -1,5 +1,5 @@
 # Random Quote Machine
-This is a web application that displays random quotes. It uses React.js to manage the state and render the UI.
+This is a simple React application that displays inspirational quotes. Each time you click the "New Quote" button, a random quote will be fetched from the [type.fit](https://type.fit) API and displayed on the screen. The background color of the app also changes with each new quote.
 
 ## Features
 - Generates and displays random quotes.
