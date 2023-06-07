@@ -1,3 +1,33 @@
 * {
     transition: all 0.5s ease-in-out;
 }
+
+.custom-container {
+    width:60%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.child1{
+    margin-right: 10px;
+}
+
+.child2{
+    margin-right: 10px;
+}
+.child3 {
+    flex-grow: 1;
+}
+
+@media (max-width:445px) {
+    .child3{
+        margin-top: 10px;
+    }
+}
+#new-quote {
+    width: 100%;
+}
