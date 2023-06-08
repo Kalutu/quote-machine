@@ -39,7 +39,7 @@ The component structure is as follows:
 - ReactDOM: React package for working with the DOM.
 - Babel: JavaScript compiler for using modern JavaScript features.
 - Bootstrap: CSS framework for responsive design.
-- Font Awesome: Library of icons for web projects
+- Font Awesome: Library of icons for web projects.
 
 ## Contributing
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
