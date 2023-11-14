@@ -2,7 +2,7 @@
 This is a simple React application that displays inspirational quotes. Each time you click the "New Quote" button, a random quote will be fetched from the [type.fit](https://type.fit) API and displayed on the screen. The background color of the app also changes with each new quote.
 
 ## Preview
-![Qoute Machine Preview](img/quote-machine.jpg)
+![Qoute Machine Preview](public/img/quote-machine.jpg)
 
 ## Features
 - Generates and displays random quotes.
