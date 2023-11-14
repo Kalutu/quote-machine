@@ -15,7 +15,7 @@ This is a simple React application that displays inspirational quotes. Each time
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/Kalutu/Random-Quote-Machine`
-2. Navigate to the project directory: `cd random-quote-machine`
+2. Navigate to the project directory: `cd quote-machine`
 3. Install dependencies: `npm install`
 
 ## Usage
