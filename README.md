@@ -22,18 +22,6 @@ This is a simple React application that displays inspirational quotes. Each time
 1. Start the development server: `npm start`
 2. Open a web browser and go to `http://localhost:3000` to view the application.
 
-## Project Structure
-The main component of the application is the `App` component defined in the `src/index.js` file. It contains the logic for fetching quotes, managing state, and rendering the UI.
-
-The component structure is as follows:
-- `App`: The main component that handles the state and rendering of the application.
-- `quotes`: State variable that stores the fetched quotes from the API.
-- `randomQuote`: State variable that stores the currently displayed random quote.
-- `color`: State variable that stores the background color of the application.
-- `useEffect`: Hook used to fetch quotes from the API and initialize the state.
-- `getNewQuote`: Function that generates a new random quote and updates the state.
-- `UI elements`: HTML elements and React components that render the quote, author, and buttons.
-
 ## Dependencies
 - React: JavaScript library for building user interfaces.
 - ReactDOM: React package for working with the DOM.
