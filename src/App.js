@@ -1,5 +1,9 @@
 import React from "react";
 import "./styles.css"
+import SocialMedia from "./Components/SocialMedia";
+import Button from "./Components/Button";
+import Owner from "./Components/Owner";
+import Title from "./Components/Title";
 
 export default function App() {
   const [quotes, setQuotes] = React.useState([]);
@@ -30,7 +34,7 @@ export default function App() {
       <div className="container pt-5 custom-container">
         <div className="jumbotron" id="quote-box">
           <div className="card">
-            <div className="card-header">Inspirational Quotes</div>
+            <Title/>
             <div className="card-body text-center">
               {randomQuote ? (
                 <>
@@ -41,34 +45,12 @@ export default function App() {
                 <h2>Loading...</h2>
               )}
                   <div className="flex">
-                    <div className="child1">
-                      <a
-                        href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(randomQuote ? randomQuote.text : "")}`}
-                        className="btn btn-primary btn-block"
-                        target="_blank"
-                        id="tweet-quote"
-                      >
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                    </div>
-                    <div className="child2">
-                      <a
-                        href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`}
-                        className="btn btn-primary btn-block"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        id="facebook-quote"
-                      >
-                        <i className="fab fa-facebook"></i>
-                      </a>
-                    </div>
-                    <div className="child3">
-                          <button id="new-quote" onClick={getNewQuote} className="btn btn-success btn-block">New Quote</button>
-                    </div>
+                    <SocialMedia quote={randomQuote}/>
+                    <Button action={getNewQuote}/>
                   </div>
             </div>
           </div>
-          <div className="text-center pt-5"><b>By Kalutu Daniel</b></div>
+          <Owner/>
         </div>
       </div>
     </div>
